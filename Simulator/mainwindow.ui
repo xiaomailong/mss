@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>867</width>
+    <height>719</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>801</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="AtsWidget" name="ats">
+     <attribute name="title">
+      <string>ats</string>
+     </attribute>
+    </widget>
+    <widget class="CiWidget" name="ci">
+     <attribute name="title">
+      <string>ci</string>
+     </attribute>
+    </widget>
+    <widget class="PowerWidget" name="power">
+     <attribute name="title">
+      <string>power</string>
+     </attribute>
+    </widget>
+    <widget class="VobcWidget" name="vobc">
+     <attribute name="title">
+      <string>vobc</string>
+     </attribute>
+    </widget>
+    <widget class="ZcWidget" name="zc">
+     <attribute name="title">
+      <string>zc</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>867</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AtsWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">atswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CiWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">ciwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PowerWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">powerwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VobcWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">vobcwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZcWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">zcwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

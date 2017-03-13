@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LEUINFO>
+	<LEU code="1"><!--应答器序列号-->
+		<type>有源应答器</type><!--应答器类型(有源/无源)-->
+		<name>AAAAA</name>
+		<position>第一条轨道</position><!--安装位置-->
+		<temperture>-40~70</temperture><!--工作温度-->
+                <maintenanceinfo>维修过2次</maintenanceinfo><!--维护信息-->
+		<year>20</year><!--使用年限-->
+		<manufacture>有限公司</manufacture><!--生产单位-->
+		<date>2016-01-01</date><!--出厂日期-->
+		<purchasedate>2017-02-08</purchasedate><!--购买日期-->
+	</LEU>
+        <LEU code="2"><!--应答器序列号-->
+                <type>有源应答器</type><!--应答器类型(有源/无源)-->
+                <name>AAAAA</name>
+                <position>第一条轨道</position><!--安装位置-->
+                <temperture>-40~70</temperture><!--工作温度-->
+                <maintenanceinfo>维修过2次</maintenanceinfo><!--维护信息-->
+                <year>20</year><!--使用年限-->
+                <manufacture>有限公司</manufacture><!--生产单位-->
+                <date>2016-01-01</date><!--出厂日期-->
+                <purchasedate>2017-02-08</purchasedate><!--购买日期-->
+        </LEU>
+</LEUINFO>

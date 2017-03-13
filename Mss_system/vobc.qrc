@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/vobc.qss</file>
+        <file>images/close.png</file>
+        <file>xml/vobc/vobc_ap.xml</file>
+        <file>xml/vobc/vobc_atp.xml</file>
+        <file>xml/vobc/vobc_btm.xml</file>
+        <file>xml/vobc/vobc_dmi.xml</file>
+        <file>xml/vobc/vobc_io.xml</file>
+        <file>xml/vobc/vobc_net.xml</file>
+        <file>xml/vobc/vobc_power.xml</file>
+        <file>xml/vobc/vobc_pulse.xml</file>
+        <file>xml/vobc/vobc_radar.xml</file>
+        <file>xml/vobc/vobc_sw.xml</file>
+    </qresource>
+</RCC>

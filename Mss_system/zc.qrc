@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/zc.qss</file>
+        <file>xml/zc/zcInformation.xml</file>
+    </qresource>
+</RCC>

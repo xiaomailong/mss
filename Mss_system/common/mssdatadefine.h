@@ -1,0 +1,46 @@
+#ifndef MSS_DATA_H
+#define MSS_DATA_H
+
+//all module identification information
+#define ID_MESSAGE_CI (0x04)
+#define ID_MESSAGE_VOBC (0x01)
+#define ID_MESSAGE_ZC (0x02)
+#define ID_MESSAGE_ATS  (0x03)
+#define ID_MESSAGE_MSS  (0x05)
+
+#define ZC_CI_INTERFACE     (0x9002)
+#define ATS_ZC_INTERFACE    (0x9004)
+#define ATS_VOBC_INTERFACE    (0x9005)
+#define ATS_CI_INTERFACE    (0x9009)
+#define VOBC_ZC_INTERFACE   (0x9006)
+#define VOBC_CI_INTERFACE   (0x9008)
+#define ATS_MSS_INTERFACE   (0x9007)
+
+#define ATS_ZC_HEARTBEAT_MSG_TYPE       (0x0201)
+#define ATS_ZC_TSR_VALIDATE_MSG_TYPE    (0x0203)
+#define ATS_ZC_TSR_EXEC_CMD_MSG_TYPE    (0x0205)
+#define ATS_ZC_TSR_ON_CONFIRM_MSG_TYPE  (0x0209)
+
+#define ATS_VOBC_HEARTBEAT_MSG_TYPE     (0x0201)
+#define ATS_VOBC_ATO_CMD_MSG_TYPE       (0x0203)
+#define VOBC_ATS_ATOSTATE_MSG_TYPE      (0x0202)
+#define VOBC_ATS_TRAIN_MSG_TYPE         (0x0204)
+#define VOBC_ATS_VEHICLE_ALARM_MSG_TYPE (0x0206)
+#define VOBC_ATS_VEHICLE_DAILY_MSG_TYPE (0x0208)
+
+#define VOBC_CI_SHIELDEDGATE_MSG_TYPE   (0x01)
+
+#define VOBC_ZC_TRAIN_MSG_TYPE          (0x0202)
+#define VOBC_ZC_REGISTER_MSG_TYPE       (0x0206)
+
+#define ATS_CI_HEARTBEAT_MSG_TYPE       (0x0201)
+#define ATS_CI_CMD_MSG_TYPE             (0x0203)
+#define ATS_CI_RUNNING_STS_MSG_TYPE     (0x0205)
+
+#define ATS_MSS_ALARM_MSG_TYPE          (0x0203)
+
+//interface code
+#define CI_ATS_INTERFACE (0x9009) //CI-ATS
+#define CI_VOBC_INTERFACE (0x9008)
+#define CI_ZC_INTERFACE (0x9002)
+#endif // MSS_DATA_H

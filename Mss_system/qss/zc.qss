@@ -1,0 +1,26 @@
+/* 灰白样式*/
+QPushButton{
+    background-color:rgb(146, 208, 80);
+    color:black;
+    border-radius:0px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/* 按下样式*/
+QPushButton:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+/*绿色*/
+QPushButton#button_zc,#button_ats,#button_ci,#button_vobc{
+    background-color:rgb(146, 208, 80);
+    color:black;
+    border-radius:5px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/*绿色按下*/
+QPushButton#button_zc:pressed,#button_ats:pressed,#button_ci:pressed,#button_vobc:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}

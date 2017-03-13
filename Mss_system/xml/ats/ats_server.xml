@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ATS>
+    <server deviceNo="apply1">
+        <type>应用服务器1</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="apply2">
+        <type>应用服务器2</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="db1">
+        <type>数据库服务器1</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="db2">
+        <type>数据库服务器2</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="interface1">
+        <type>接口服务器1</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="interface2">
+        <type>接口服务器2</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="comm1">
+        <type>通信服务器1</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+	    <server deviceNo="comm2">
+        <type>通信服务器2</type>
+        <type>通信服务器2</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </server>
+</ATS>

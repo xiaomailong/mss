@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ATS>
+    <workstation deviceNo="displayws">
+        <type>运行图编辑/显示工作站</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </workstation>
+    <workstation deviceNo="dispatherws">
+        <type>行车调度员工作站</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </workstation>
+	<workstation deviceNo="rundisplayws">
+        <type>运行图显示工作站</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </workstation>
+	<workstation deviceNo="largescreenws">
+        <type>大屏接口工作站</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </workstation>
+	<workstation deviceNo="atsmaintenancews">
+        <type>ATS维护工作站</type>
+        <position>控制中心ATS</position>
+        <manufacture>比亚迪有限公司</manufacture>
+        <purchasedate>2017-02-08</purchasedate>
+        <baseconfig>未知</baseconfig>
+        <systemconfig>未知</systemconfig>
+        <swversion>1.0</swversion>
+        <maintenanceinfo>无</maintenanceinfo>
+    </workstation>
+</ATS>
+

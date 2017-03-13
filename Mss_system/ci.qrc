@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/ci.qss</file>
+        <file>xml/ci/ciaxlecounter.xml</file>
+        <file>xml/ci/cileu.xml</file>
+        <file>xml/ci/cipsd.xml</file>
+        <file>xml/ci/cisignallamp.xml</file>
+        <file>xml/ci/ciswitch.xml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CiAlarmReport</class>
+ <widget class="QWidget" name="CiAlarmReport">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>915</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>查询条件</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>设备</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="deviceComboBox">
+          <item>
+           <property name="text">
+            <string>不限</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>道岔</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>信号机</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>计轴器</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>应答器</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>轨道电路</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>转辙机</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>设备类型</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="typeComboBox">
+          <item>
+           <property name="text">
+            <string>不限</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>板级</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>外围</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>PC</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>其他</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>故障类型</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="faultTypeComboBox">
+          <item>
+           <property name="text">
+            <string>不限</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>硬件故障</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>软件故障</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>报警级别</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="faultLevelComboBox">
+          <item>
+           <property name="text">
+            <string>不限</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>一级报警</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>二级报警</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>三级报警</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>开始时间</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateTimeEdit" name="beginDateTimeEdit"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>结束时间</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateTimeEdit" name="endDateTimeEdit"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="monitorButton">
+          <property name="text">
+           <string>查找</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+       <zorder>label</zorder>
+       <zorder>monitorButton</zorder>
+       <zorder>label_4</zorder>
+       <zorder>faultTypeComboBox</zorder>
+       <zorder>label_3</zorder>
+       <zorder>faultLevelComboBox</zorder>
+       <zorder>label_6</zorder>
+       <zorder>label_2</zorder>
+       <zorder>deviceComboBox</zorder>
+       <zorder>endDateTimeEdit</zorder>
+       <zorder>beginDateTimeEdit</zorder>
+       <zorder>typeComboBox</zorder>
+       <zorder>label_5</zorder>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QTableView" name="tableView"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,2,1,1,2">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <property name="leftMargin">
+        <number>60</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>60</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="firstPage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>首页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="prevPage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>上页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="totalPage">
+         <property name="text">
+          <string>共1页 当前第1页</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="nextPage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>下页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="lastPage">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>尾页</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="totalRecordLabel">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>总共1条记录</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/mss.png</file>
+        <file>images/mss_nologo.png</file>
+        <file>images/alarm1.png</file>
+        <file>images/alarm2.png</file>
+        <file>images/alarm3.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,61 @@
+/*QLabel */
+QLabel#center_lable{
+    color:palette(highlight);
+}
+
+QLabel#left_center,#right_center{
+    color:rgb(0,219,0);
+}
+
+/* 交换机BUTTON*/
+QPushButton#interchanger_button1,#interchanger_button2{
+    background-color:rgb(240, 240, 240);
+    color:black;
+    border-radius:0px;
+    border:1px solid rgb(29, 27, 28);
+    border-style:outset;
+}
+/* 交换机BUTTON press*/
+QPushButton#interchanger_button1:pressed,#interchanger_button2:pressed{
+    background-color:rgb(130, 121, 125);
+    border-style:inset;
+}
+
+/*工作站 image button*/
+QPushButton#display_edit,#dispatcher,#display,#large_screen,#ats_maintenance{
+    border-image:url(://images/station.jpg);
+}
+
+/*工作站 image button press*/
+QPushButton#display_edit:pressed,#dispatcher:pressed,#display:pressed,
+    #large_screen:pressed,#ats_maintenance:pressed{
+    border-image:url(://images/station_p.jpg);
+}
+
+
+/*服务器 image button*/
+QPushButton#apply_server1,#apply_server2,#db_server1,#db_server2
+    ,#interface_server1,#interface_server2,#comm_server1,#comm_server2,#clock_system{
+    border-image:url(://images/server.jpg);
+}
+
+/*服务器 image button press */
+QPushButton#apply_server1:pressed,#apply_server2:pressed,#db_server1:pressed,#db_server2:pressed
+    ,#interface_server1:pressed,#interface_server2:pressed,#comm_server1:pressed,#comm_server2:pressed,#clock_system:pressed{
+    border-image:url(://images/server_p.jpg);
+}
+
+/*disk image button*/
+QPushButton#disk_array{
+    border-image:url(://images/disk.jpg);
+}
+
+/*打印机 image button*/
+QPushButton#printer{
+    border-image:url(://images/print.jpg);
+}
+
+
+
+
+

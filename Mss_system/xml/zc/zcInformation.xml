@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ZCINFORMATION>
+    <ZCI deviceNo="1">
+        <vendor>厂商信息 : BYD</vendor>
+        <starttime>服役起始时间 : 2017/01/01</starttime>
+        <cpu>cpu信息 : I7-7600</cpu>
+        <memory>memory info : 16G</memory>
+        <operating_system>安装的操作系统 : ubuntu</operating_system>
+        <software_version>安装软件版本 1.0 </software_version>
+        <maintenance_record>维修记录 BYD</maintenance_record>
+        <person_id>授权登录人员信息 MASTER</person_id>
+    </ZCI>
+</ZCINFORMATION>

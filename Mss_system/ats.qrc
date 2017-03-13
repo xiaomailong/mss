@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/ats.qss</file>
+        <file>xml/ats/ats_interchanger.xml</file>
+        <file>xml/ats/ats_workstation.xml</file>
+        <file>xml/ats/ats_printer.xml</file>
+        <file>xml/ats/ats_server.xml</file>
+        <file>images/disk.jpg</file>
+        <file>images/print.jpg</file>
+        <file>images/server.jpg</file>
+        <file>images/server_p.jpg</file>
+        <file>images/station.jpg</file>
+        <file>images/station_p.jpg</file>
+        <file>images/error.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AXLECOUNTERINFO>
+	<COUNTER code="1"><!--记轴器编码-->
+		<name>MS26轨道计轴</name>
+		<position>130，440</position><!--安装位置，经纬度-->
+		<power>10V-30V</power><!--供电：DC-->
+		<input>TTL正脉冲10V-30V</input><!-- 输出-->
+		<speed>0~180km/h</speed><!-- 检测车速范围-->		
+		<temp>-30℃-+80℃</temp><!--环境温度-->
+                <maintenanceinfo>维修过2次</maintenanceinfo><!--维护信息-->
+		<year>20</year><!--使用年限-->
+		<manufacture>有限公司</manufacture><!--生产单位-->
+		<date>2016-01-01</date><!--出厂日期-->
+		<purchasedate>2017-02-08</purchasedate><!--购买日期-->
+	</COUNTER>
+</AXLECOUNTERINFO>

@@ -1,0 +1,48 @@
+1.目前我们是通过QT的subdir模板来组织项目的树形结构。
+2.MSS下有2个子项目，一个是Mss_system项目,一个是UnitTest项目。
+3.UnitTest项目是Mss_system项目的单元测试集，包含了所有的单元测试项目。
+4.UnitTest项目的项目组织形式按照Mss_system的组织形式。
+5.以ats为例子。ats里有AtsProcess及ATSAlarmReport类，那么需要在UnitTest下建立ats子项目，
+同时在ats下建立AtsProcessUnitTest及ATSAlarmReportUnitTest子项目。
+
+大体的目录结构如下所示，供参考
+.
+`-- MSS
+    |-- Mss_system
+    |   |-- ats
+    |   |-- ci
+    |   |-- power
+    |   |-- rsspi
+    |   |-- utils
+    |   |   |-- b2v
+    |   |   |-- crc
+    |   |   `-- rsspi
+    |   |-- vobc
+    |   |-- zc
+    |   |-- Mss_system.pro
+    |-- UnitTest
+    |   |-- ats
+    |   |   |-- AtsProcessUnitTest
+    |   |   |   |-- AtsProcessUnitTest.pro
+    |   |   |   `-- tst_atsprocess.cpp
+    |   |   |-- ATSAlarmReportUnitTest
+    |   |   |   |-- ATSAlarmReportUnitTest.pro
+    |   |   |   `-- tst_atsalarmreport.cpp
+    |   |   `-- ats.pro
+    |   |-- vobc
+    |   |   `-- vobc.pro
+    |   |-- ci
+    |   |   `-- ci.pro
+    |   |-- power
+    |   |   `-- power.pro
+    |   |-- rsspi
+    |   |-- utils
+    |   |   |-- b2v
+    |   |   |-- crc
+    |   |   `-- rsspi
+    |   |-- vobc
+    |   |   `-- vobc.pro
+    |   |-- zc
+    |   |   `-- zc.pro
+    |   `-- UnitTest.pro
+     `-- MSS.pro

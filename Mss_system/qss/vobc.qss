@@ -1,0 +1,87 @@
+/* 灰白样式*/
+QPushButton{
+    background-color:rgb(232, 238, 247);
+    color:black;
+    border-radius:0px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/* 按下样式*/
+QPushButton:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+/* 紫色样式*/
+QPushButton#buttonRadar1,#buttonRadar2,#button_unknown1,#button_unknown2,#button_unknown3{
+    background-color:rgb(171, 154, 192);
+    color:black;
+    border-radius:0px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/* 紫色样式按下*/
+QPushButton#buttonRadar1:pressed,#buttonRadar2:pressed,#button_unknown1:pressed,#button_unknown2:pressed,#button_unknown3:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+/*绿色*/
+QPushButton#buttonHead,#buttonTail,#buttonDmi1,#buttonDmi2{
+    background-color:rgb(146, 208, 80);
+    color:black;
+    border-radius:5px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/*绿色按下*/
+QPushButton#buttonHead:pressed,#buttonTail:pressed,#buttonDmi1:pressed,#buttonDmi2:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+/*黄色*/
+QPushButton#buttonSw1,#buttonSw2,#buttonNet,#buttonIO,#buttonPower,#buttonAp1,#buttonAp2,#buttonBtm11,#buttonBtm22{
+    background-color:rgb(255, 192, 0);
+    color:black;
+    border-radius:5px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/*黄色按下*/
+QPushButton#buttonSw1:pressed,#buttonSw2:pressed,#buttonNet:pressed,#buttonIO:pressed,#buttonPower:pressed,#buttonAp1:pressed,#buttonAp2:pressed,#buttonBtm11:pressed,#buttonBtm22:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+/*蓝色*/
+QPushButton#buttonBtm1,#buttonBtm2{
+    background-color:rgb(75, 172, 198);
+    color:black;
+    border-radius:5px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/*蓝色按下*/
+QPushButton#buttonBtm1:pressed,#buttonBtm2:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+
+/* 紫色圆形样式*/
+QPushButton#buttonPulse1,#buttonPulse2,#buttonPulse3,#buttonPulse4{
+    background-color:rgb(171, 154, 192);
+    color:black;
+    border-radius:15px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/* 紫色圆形按下样式*/
+QPushButton#buttonPulse1:pressed,#buttonPulse2:pressed,#buttonPulse3:pressed,#buttonPulse4:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+QToolTip#buttonHead {
+    background-color:rgb(85, 170, 255);
+}
+
+
+
+
+

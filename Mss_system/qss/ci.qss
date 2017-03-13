@@ -1,0 +1,55 @@
+/* 灰白样式*/
+QPushButton{
+    background-color:rgb(232, 238, 247);
+    color:black;
+    border-radius:0px;
+    border:2px groove gray;
+    border-style:outset;
+}
+/* 按下样式*/
+QPushButton:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+
+/* 绿色样式*/
+QPushButton#buttonCI,#IO{
+    background-color:rgb(146, 208, 80);
+    color:black;
+    border-radius:5px;
+    border:2px groove gray;
+    border-style:outset;
+}
+
+QPushButton#buttonCI:pressed,#IO:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+
+QPushButton#buttonAxle,#LEU{
+    background-color:rgb(75, 172, 198);
+    color:black;
+    border-radius:5px;
+    border:1px groove gray;
+    border-style:outset;
+}
+
+QPushButton#buttonAxle:pressed,#LEU:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
+
+/* 黄色样式*/
+QPushButton#PSD,#ESP,#IBP,#SPKS,#buttonRelayOut,#PSDOut,#ESPOut,#IBPOut,#buttonRelay{
+    background-color:rgb(255, 192, 0);
+    color:black;
+    border-radius:5px;
+    border:1px groove gray;
+    border-style:outset;
+}
+
+/*绿色样式按下*/
+QPushButton#PSD:pressed,#ESP:pressed,#IBP:pressed,#SPKS:pressed,#buttonRelayOut:pressed,#PSDOut:pressed,#ESPOut:pressed,#IBPOut:pressed,#buttonRelay:pressed{
+    background-color:rgb(85, 170, 255);
+    border-style:inset;
+}
